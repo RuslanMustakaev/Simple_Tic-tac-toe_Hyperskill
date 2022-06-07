@@ -44,6 +44,7 @@ while step < 10:
     if winner(grid_list, player_symbol):
         break
     step += 1
+    change_symbol()
 else:
     print("Draw")
 
